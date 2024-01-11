@@ -1,8 +1,9 @@
 
-# ERRASv2 (RFID Door Project)
+# ERRASv2 (WIP - RFID Door Project)
 
 ## Project Description
 
+### ERRASv2 is a Work In Progress actively under development
 This RFID reading system, powered by an ESP32 microcontroller, is designed for the HackPGH makerspace to authenticate users by reading RFID tags and verifying them against a list of authorized tag IDs from WildApricot. The system utilizes the Wiegand 26 protocol for high responsiveness and reliability in RFID reading. Additionally, it controls a magnetic door lock via a relay connected to the ESP32's GPIO pins. For added security, the system includes a fail-safe mechanism that defaults to keeping the door locked in case of system errors or power failures. The current implementation uses WiFi for network connectivity, with plans to transition to an Ethernet connection for enhanced network stability and performance in the final version.
 
 ## System Requirements
